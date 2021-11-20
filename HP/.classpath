@@ -9,5 +9,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/eclipse-workspace/libs/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Dell/eclipse-workspace/Ess.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/git/MOH_Automation/HP/libs/Ess.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/git/MOH_Automation/HP/libs/library.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/git/MOH_Automation/HP/libs/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
