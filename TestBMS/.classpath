@@ -6,7 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Dell/eclipse-workspace/libs/selenium-server-standalone-3.141.59.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Dell/eclipse-workspace/library.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/HP"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
