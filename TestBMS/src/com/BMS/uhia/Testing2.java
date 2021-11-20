@@ -5,7 +5,7 @@ import utility.Family_Registration;
 public class Testing2 {
 //My Test comment 
 	public static void main(String[] args) {
-		// Test Commit 
+		// test 1 2 3 
 		Family_Registration fr = new Family_Registration();
 		fr.InvokeBrowser();
 		fr.Login_to_BMS("digital1","digital1@staging");
