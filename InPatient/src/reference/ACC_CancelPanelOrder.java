@@ -48,7 +48,7 @@ public class ACC_CancelPanelOrder extends ACC_CancelServiceOrder{
 				WebElement Cancel = driver.findElement(By.id("cancelAll"));
 				Cancel.click();
 
-				Thread.sleep(1000);
+				Thread.sleep(2000);
 
 				org.openqa.selenium.Alert alert = driver.switchTo().alert();
 				Thread.sleep(1000);
