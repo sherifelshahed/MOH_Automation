@@ -7,9 +7,9 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class ACC_RecordPanel extends ACC_AddSeparateService{
-	
-	public Object RecordPanel() throws InterruptedException {
+public class PlacePanelOrder extends ACC_AddSeparateService{
+
+public Object RecordPanel() throws InterruptedException {
 		
 		Set<String> windows1 = driver.getWindowHandles();
 		for (String window1 : windows1) 
@@ -24,7 +24,7 @@ public class ACC_RecordPanel extends ACC_AddSeparateService{
 				Thread.sleep(1000);
 				WebElement NewOrder = driver.findElement(By.id("NewOrder"));
 				NewOrder.click();
-				
+				Thread.sleep(800);
 				driver.switchTo().parentFrame();
 				driver.switchTo().defaultContent();
 				driver.switchTo().frame("BLChargePatientEncounterTabPage");
@@ -34,7 +34,7 @@ public class ACC_RecordPanel extends ACC_AddSeparateService{
 				
 				WebElement SearchBTN = driver.findElement(By.name("add_mod"));
 				SearchBTN.click();
-				
+				Thread.sleep(1000);
 				driver.switchTo().parentFrame();
 				driver.switchTo().defaultContent();
 				driver.switchTo().frame("BLChargePatientExisOrderTraverse");
