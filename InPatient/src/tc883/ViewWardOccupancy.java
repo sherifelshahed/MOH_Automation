@@ -44,7 +44,7 @@ public void View_Ward_occupancy (String usernameS, String passwordS) throws Inte
 	    driver.switchTo().window(ParentPage);
 	    driver.get("http://10.209.1.5:7777/HIS/eCommon/jsp/eHIS.jsp");
 	    
-	    //int count = driver.findElements(By.tagName("frameB")).size();
+	    int count = driver.findElements(By.tagName("frameB")).size();
 	    driver.switchTo().frame(1);
 	    driver.switchTo().frame("menuFr");
 	    WebElement Ward_occupancy = driver.findElement(By.id("sd6"));
