@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+ 
 public class StockItemConsumption {
 	InternetExplorerDriver driver;
 	public void openURL() throws InterruptedException 

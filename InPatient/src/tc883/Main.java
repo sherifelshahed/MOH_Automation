@@ -1,7 +1,7 @@
 package tc883;
 
 import tc883.ViewWardOccupancy;
-
+ 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 

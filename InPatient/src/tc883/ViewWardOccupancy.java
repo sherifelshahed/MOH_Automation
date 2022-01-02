@@ -6,7 +6,7 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
+ 
 public class ViewWardOccupancy {
 	InternetExplorerDriver driver;
 	public void openURL() throws InterruptedException 
