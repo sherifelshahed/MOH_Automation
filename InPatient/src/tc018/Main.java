@@ -11,5 +11,6 @@ public class Main {
 		 BedAvailablity BA = new BedAvailablity();
 		BA.openURL();
 		BA.Bed_Availabilty(usernameS, passwordS);
+		// dummy comment for test 
 	}
 }
