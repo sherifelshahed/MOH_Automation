@@ -1,5 +1,4 @@
 package tc836;
-import tc836.StockItemConsumption;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
